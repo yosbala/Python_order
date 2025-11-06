@@ -8,7 +8,7 @@ botocore>=1.35.60
 # ---- Deep Learning ----
 torch>=2.5.0
 torchvision>=0.20.0
-ultralytics>=8.3.25  # YOLOv8
+ultralytics>=8.3.25   # YOLOv8
 
 # ---- Image Processing ----
 opencv-python>=4.10.0.84
@@ -26,11 +26,8 @@ tqdm>=4.66.4
 multiprocess>=0.70.16
 joblib>=1.4.2
 
-# ---- Serialization ----
-pickle5>=0.0.12
-
 # ---- JSON Parsing ----
 simplejson>=3.19.2
 
-# ---- Optional (for cleaner output) ----
+# ---- Optional (for cleaner console output) ----
 colorama>=0.4.6
